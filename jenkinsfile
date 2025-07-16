@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    DOCKERHUB_CREDENTIALS = 'dockerhub-cred'          // Jenkins credentials ID
+    DOCKERHUB_CREDENTIALS = 'dockerhub-creds'          // Jenkins credentials ID
     IMAGE_NAME = 'your-dockerhub-username/java-app'    // Replace with your repo
     IMAGE_TAG = "${env.BUILD_NUMBER}"
   }
