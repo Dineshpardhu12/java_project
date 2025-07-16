@@ -14,7 +14,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git 'https://github.com/your-org/java-maven-app.git'
+        git 'https://github.com/Dineshpardhu12/java_project.git'
       }
     }
 
